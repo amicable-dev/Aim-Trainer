@@ -1,50 +1,152 @@
-# React + TypeScript + Vite
+<h1 align="center">🎯 Aim Trainer</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+A web-based aim training app built with React and TypeScript to help users improve mouse precision, reflexes, and overall aim skills.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-TypeScript-blue.svg" />
+  <img src="https://img.shields.io/badge/Framework-React-blueviolet.svg" />
+  <img src="https://img.shields.io/badge/Status-In%20Development-orange" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📚 Table of Contents
+- [✨ Overview](#-overview)
+- [🚀 Features](#-features)
+- [🖥️ Screenshots](#️-screenshots)
+- [🛠️ Tech Stack](#-tech-stack)
+- [📦 Installation & Usage](#-installation--usage)
+- [📂 Folder Structure](#-folder-structure)
+- [🧾 Future Enhancements](#-future-enhancements)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## ✨ Overview
+Aim-Trainer is designed for gamers, programmers, and anyone who wants to improve their mouse control and reaction time.  
+It provides a simple, clean interface to practice aiming skills, track performance, and measure improvement over time.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 🚀 Features
+✔ Click accuracy tracking  
+✔ Customizable difficulty and targets  
+✔ Real-time score display  
+✔ Clean and responsive UI  
+✔ Built with React + TypeScript for a modern web experience  
+
+---
+
+## 🛠️ Tech Stack
+| Technology | Usage |
+|-----------|-------|
+| **React** | Frontend framework |
+| **TypeScript** | Type safety & modern JS features |
+| **CSS3** | Styling & layout |
+| **Vite / Create-React-App** | Development & build tooling |
+
+---
+
+## 📦 Installation & Usage
+
+```bash
+# Clone the repository
+git clone https://github.com/amicable-dev/Aim-Trainer.git
+
+# Navigate to project folder
+cd Aim-Trainer
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+Aim-Trainer/
+│
+├── public/             # Public assets
+├── src/                # Source code
+│   ├── components/     # React components
+│   ├── styles/         # CSS files
+│   ├── App.tsx         # Main App component
+│   └── index.tsx       # Entry point
+├── images/             # Screenshots for README
+├── package.json        # Project metadata & dependencies
+└── README.md           # This file
+🤝 Contributing
+
+Contributions are welcome!
+
+1️⃣ Fork the repository
+2️⃣ Create a feature branch
+
+git checkout -b feature/YourFeature
+
+
+3️⃣ Make changes & commit
+
+git commit -m "Added new feature"
+
+
+4️⃣ Push your branch
+
+git push origin feature/YourFeature
+
+
+5️⃣ Open a Pull Request for review
+
+📜 License
+
+This project is licensed under MIT License — free to use and modify.🤝 Contributing
+
+Contributions are welcome!
+
+1️⃣ Fork the repository
+2️⃣ Create a feature branch
+
+git checkout -b feature/YourFeature
+
+
+3️⃣ Make changes & commit
+
+git commit -m "Added new feature"
+
+
+4️⃣ Push your branch
+
+git push origin feature/YourFeature
+
+
+5️⃣ Open a Pull Request for review
+
+📜 License
+
+This project is licensed under MIT License — free to use and modify.🤝 Contributing
+
+Contributions are welcome!
+
+1️⃣ Fork the repository
+2️⃣ Create a feature branch
+
+git checkout -b feature/YourFeature
+
+
+3️⃣ Make changes & commit
+
+git commit -m "Added new feature"
+
+
+4️⃣ Push your branch
+
+git push origin feature/YourFeature
+
+
+5️⃣ Open a Pull Request for review
+
+📜 License
+
+This project is licensed under MIT License — free to use and modify.
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<p align="center">Made with ❤️ by <b>amicable-dev</b> ✨</p> ```
